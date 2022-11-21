@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/iconsfont.css">
+       <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/stylecosmetology.css">
+  <title>KLEVER</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+<header class="header">
+
+  <div class="header__container container">
+    <div class="header__top">
+      <div class="header__logo">
+        <a href="index.html" class="logo__link"> <img src="img/LOGO.png" alt="logo"></a>
+      </div>
+      <div class="header__search search">
+        <input class="search__input" placeholder="Поиск по сайту">
+        <img class="search__img" src="img/search2.svg" alt="поиск">
+      </div>
+      <div class="callback">
+        <a href="tel:88005553535" class="callback__num">8 (800) 555-35-35</a>
+        <a href="#popup-callback" class="callback__text popup-link">Заказать звонок</a>
+      </div>
+      <img class="header__search-eye" src="img/search.svg" alt="search">
+      <a class="record" href="contacts.html">Запись онлайн</a>
+    </div>
+  </div>
+
+
+  <div class="header__bottom">
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item menu__border"></li>
+        <li class="menu__item"><a href="services.html" class="menu__link">Услуги</a></li>
+        <li class="menu__item menu__border"></li>
+        <li class="menu__item"><a href="specialists.html" class="menu__link">Наши специалисты</a></li>
+        <li class="menu__item menu__border"></li>
+        <li class="menu__item"><a href="pricelist.html" class="menu__link">Прайс</a></li>
+        <li class="menu__item menu__border"></li>
+        <li class="menu__item"><a href="about.html" class="menu__link">О клинике</a></li>
+        <li class="menu__item menu__border"></li>
+        <li class="menu__item"><a href="news.html" class="menu__link">Новости и акции</a></li>
+        <li class="menu__item menu__border"></li>
+        <li class="menu__item"><a href="openings.html" class="menu__link">Вакансии</a></li>
+        <li class="menu__item menu__border"></li>
+        <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+        <li class="menu__item menu__border"></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div id="popup-callback" class="popup">
+  <div class="popup__body">
+    <div class="popup__content">
+      <h5 class="popup__title">Заказать обратный звонок</h5>
+      <input type="text" class="popup__input" placeholder="Имя">
+      <input type="tel" class="popup__input" placeholder="Телефон">
+      <textarea class="popup__input popup__textarea" placeholder="Комментарий"></textarea>
+      <button class="popup__button" type="submit">Отправить</button>
+      <p class="popup__text">Нажимая на кнопку, вы даете согласие на обработку
+        <span class="popup__person">персональных данных</span>
+      </p>
+    </div>
+  </div>
+</div>
+<main class="page">
+  <section class="page__menu page-menu">
+    <div class="page-menu__container container">
+      <ul class="page-menu__list">
+        <li class="page-menu__item"><a href="services.html" class="page-menu__link">Услуги</a></li>
+        <li class="page-menu__item"><a href="cosmetology.html"
+            class="page-menu__link page-menu__link-green">/Косметология</a>
+          <span class="page-menu__span">/ Прием врача-косметолога и проведение процедуры с применением Маски-гель и
+            неинвазивная карбокситерапия (1 штука)</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="page__services services">
+    <div class="services__container container">
+      <nav class="pricelist__menu">
+        <ul class="pricelist__list">
+          <li class="pricelist__item"><a href="#" class="pricelist__link" data-name=".one">Очищение кожи лица и шеи.
+              Демакияж</a>
+            <div class="pricelist__list-items pricelist__list-two _open one">
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Описание методики:</div>
+                <p class="pricelist__list-subtitle"> Принцип работы аппарата М22 основан на селективном фототермолизе и
+                  связан со способностью некоторых структур организма воспринимать световое излучение и разрушаться под
+                  его
+                  воздействием. </p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Преимущества фотоомоложения М22: </div>
+                <p class="pricelist__list-word">Безопасная и сертифицированная технология (МИНЗДРАВ РФ, FDA (США), ЕС);
+                </p>
+                <p class="pricelist__list-word">Минимальный риск возникновения постпроцедурной пигментации;</p>
+                <p class="pricelist__list-word">Результат заметен сразу после процедуры фототерапии;</p>
+                <p class="pricelist__list-word">Процедура абсолютно безболезненна, световой луч работает в глубоких
+                  слоях, не затрагивая целостность поверхности кожи.</p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Показания к фототерапии кожи:</div>
+                <p class="pricelist__list-subtitle">Процедура фототерапии проводится на любом участке лица, шеи,
+                  декольте и тела.
+                  Кроме дерматологических показаний, процедура фотоомоложения на М22 прекрасно подходит для подготовки к
+                  важным мероприятиям. </p>
+                <p class="pricelist__list-word"> Признаки фото- и хроностарения; </p>
+                <p class="pricelist__list-word"> Дряблая кожа с пониженной эластичностью; </p>
+                <p class="pricelist__list-word"> Тусклый цвет лица;</p>
+                <p class="pricelist__list-word"> Купероз; </p>
+                <p class="pricelist__list-word"> Розацеа;</p>
+                <p class="pricelist__list-word"> Акне и постакне; </p>
+                <p class="pricelist__list-word">Пигментация; </p>
+                <p class="pricelist__list-word">Телеангиоэктазии; </p>
+                <p class="pricelist__list-word">Расширенные поры; </p>
+                <p class="pricelist__list-word">Мимические морщины. </p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Противопоказания:</div>
+                <p class="pricelist__list-word">Загар (воздержаться от солнечных ванн до и после процедуры);</p>
+                <p class="pricelist__list-word">Болезни, связанные со свертываемостью крови;</p>
+                <p class="pricelist__list-word">Фоточувствительность;</p>
+                <p class="pricelist__list-word">Прием фотосенсибилизаторов;</p>
+                <p class="pricelist__list-word">Склонность к формированию келоидов;</p>
+                <p class="pricelist__list-word">Онкология;</p>
+                <p class="pricelist__list-word">Беременность и период лактации;</p>
+                <p class="pricelist__list-word">Сахарный диабет некомпенсированный;</p>
+                <p class="pricelist__list-word">Наличие кардиостимулятора;</p>
+                <p class="pricelist__list-word">Обострение хронических заболеваний;</p>
+                <p class="pricelist__list-word">Герпес;</p>
+                <p class="pricelist__list-word">Аутоиммунные заболевания;</p>
+                <p class="pricelist__list-word">Эпилепсия.</p>
+              </div>
+
+              <div class="pricelist__list-box2">
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word2">Очищение кожи лица и шеи. Демакияж</p>
+                  <p class="pricelist__list-price">210 ₽</p>
+                </div>
+
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word2">Прием врача-косметолога и нанесение комплекса фруктовых кислот и
+                    витаминов (1 зона)</p>
+                  <p class="pricelist__list-price">2270 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word2">Прием врача-косметолога и проведение процедуры с применением
+                    Маски-гель и неинвазивная карбокситерапия (1 штука)</p>
+                  <p class="pricelist__list-price">1300 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word2">Прием врача-косметолога и проведение процедуры Супер лифтинг эффект
+                    "Holy Land"</p>
+                  <p class="pricelist__list-price">1300 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word2">Пилинг "TCA Easy peel (15%) skin Tech"</p>
+                  <p class="pricelist__list-price">14610 ₽</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="pricelist__item"><a href="#" class="pricelist__link" data-name=".two">Функциональная
+              диагностика</a>
+            <div class="pricelist__list-items pricelist__list-two  two">
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Преимущества фотоомоложения М22: </div>
+                <p class="pricelist__list-word">Безопасная и сертифицированная технология (МИНЗДРАВ РФ, FDA (США), ЕС);
+                </p>
+                <p class="pricelist__list-word">Минимальный риск возникновения постпроцедурной пигментации;</p>
+                <p class="pricelist__list-word">Результат заметен сразу после процедуры фототерапии;</p>
+                <p class="pricelist__list-word">Процедура абсолютно безболезненна, световой луч работает в глубоких
+                  слоях, не затрагивая целостность поверхности кожи.</p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Показания к фототерапии кожи:</div>
+                <p class="pricelist__list-subtitle">Процедура фототерапии проводится на любом участке лица, шеи,
+                  декольте и тела.
+                  Кроме дерматологических показаний, процедура фотоомоложения на М22 прекрасно подходит для подготовки к
+                  важным мероприятиям. </p>
+                <p class="pricelist__list-word"> Признаки фото- и хроностарения; </p>
+                <p class="pricelist__list-word"> Дряблая кожа с пониженной эластичностью; </p>
+                <p class="pricelist__list-word"> Тусклый цвет лица;</p>
+                <p class="pricelist__list-word"> Купероз; </p>
+                <p class="pricelist__list-word"> Розацеа;</p>
+                <p class="pricelist__list-word"> Акне и постакне; </p>
+                <p class="pricelist__list-word">Пигментация; </p>
+                <p class="pricelist__list-word">Телеангиоэктазии; </p>
+                <p class="pricelist__list-word">Расширенные поры; </p>
+                <p class="pricelist__list-word">Мимические морщины. </p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Противопоказания:</div>
+                <p class="pricelist__list-word">Загар (воздержаться от солнечных ванн до и после процедуры);</p>
+                <p class="pricelist__list-word">Болезни, связанные со свертываемостью крови;</p>
+                <p class="pricelist__list-word">Фоточувствительность;</p>
+                <p class="pricelist__list-word">Прием фотосенсибилизаторов;</p>
+                <p class="pricelist__list-word">Склонность к формированию келоидов;</p>
+                <p class="pricelist__list-word">Онкология;</p>
+                <p class="pricelist__list-word">Беременность и период лактации;</p>
+                <p class="pricelist__list-word">Сахарный диабет некомпенсированный;</p>
+                <p class="pricelist__list-word">Наличие кардиостимулятора;</p>
+                <p class="pricelist__list-word">Обострение хронических заболеваний;</p>
+                <p class="pricelist__list-word">Герпес;</p>
+                <p class="pricelist__list-word">Аутоиммунные заболевания;</p>
+                <p class="pricelist__list-word">Эпилепсия.</p>
+              </div>
+
+              <div class="pricelist__list-box2">
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Очищение кожи лица и шеи. Демакияж</p>
+                  <p class="pricelist__list-price">210 ₽</p>
+                </div>
+
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и нанесение комплекса фруктовых кислот и
+                    витаминов (1 зона)</p>
+                  <p class="pricelist__list-price">2270 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и проведение процедуры с применением
+                    Маски-гель и неинвазивная карбокситерапия (1 штука)</p>
+                  <p class="pricelist__list-price">1300 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и проведение процедуры Супер лифтинг эффект
+                    "Holy Land"</p>
+                  <p class="pricelist__list-price">1300 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Пилинг "TCA Easy peel (15%) skin Tech"</p>
+                  <p class="pricelist__list-price">14610 ₽</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="pricelist__item"><a href="#" class="pricelist__link" data-name=".three">Прием врача-косметолога и
+              нанесение комплекса фруктовых кислот
+              и витаминов (1 зона)</a>
+            <div class="pricelist__list-items pricelist__list-two  three">
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Описание методики:</div>
+                <p class="pricelist__list-subtitle"> Принцип работы аппарата М22 основан на селективном фототермолизе и
+                  связан со способностью некоторых структур организма воспринимать световое излучение и разрушаться под
+                  его
+                  воздействием. </p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Преимущества фотоомоложения М22: </div>
+                <p class="pricelist__list-word">Безопасная и сертифицированная технология (МИНЗДРАВ РФ, FDA (США), ЕС);
+                </p>
+                <p class="pricelist__list-word">Минимальный риск возникновения постпроцедурной пигментации;</p>
+                <p class="pricelist__list-word">Результат заметен сразу после процедуры фототерапии;</p>
+                <p class="pricelist__list-word">Процедура абсолютно безболезненна, световой луч работает в глубоких
+                  слоях, не затрагивая целостность поверхности кожи.</p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Показания к фототерапии кожи:</div>
+                <p class="pricelist__list-subtitle">Процедура фототерапии проводится на любом участке лица, шеи,
+                  декольте и тела.
+                  Кроме дерматологических показаний, процедура фотоомоложения на М22 прекрасно подходит для подготовки к
+                  важным мероприятиям. </p>
+                <p class="pricelist__list-word"> Признаки фото- и хроностарения; </p>
+                <p class="pricelist__list-word"> Дряблая кожа с пониженной эластичностью; </p>
+                <p class="pricelist__list-word"> Тусклый цвет лица;</p>
+                <p class="pricelist__list-word"> Купероз; </p>
+                <p class="pricelist__list-word"> Розацеа;</p>
+                <p class="pricelist__list-word"> Акне и постакне; </p>
+                <p class="pricelist__list-word">Пигментация; </p>
+                <p class="pricelist__list-word">Телеангиоэктазии; </p>
+                <p class="pricelist__list-word">Расширенные поры; </p>
+                <p class="pricelist__list-word">Мимические морщины. </p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Противопоказания:</div>
+                <p class="pricelist__list-word">Загар (воздержаться от солнечных ванн до и после процедуры);</p>
+                <p class="pricelist__list-word">Болезни, связанные со свертываемостью крови;</p>
+                <p class="pricelist__list-word">Фоточувствительность;</p>
+                <p class="pricelist__list-word">Прием фотосенсибилизаторов;</p>
+                <p class="pricelist__list-word">Склонность к формированию келоидов;</p>
+                <p class="pricelist__list-word">Онкология;</p>
+                <p class="pricelist__list-word">Беременность и период лактации;</p>
+                <p class="pricelist__list-word">Сахарный диабет некомпенсированный;</p>
+                <p class="pricelist__list-word">Наличие кардиостимулятора;</p>
+                <p class="pricelist__list-word">Обострение хронических заболеваний;</p>
+                <p class="pricelist__list-word">Герпес;</p>
+                <p class="pricelist__list-word">Аутоиммунные заболевания;</p>
+                <p class="pricelist__list-word">Эпилепсия.</p>
+              </div>
+
+              <div class="pricelist__list-box2">
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Очищение кожи лица и шеи. Демакияж</p>
+                  <p class="pricelist__list-price">210 ₽</p>
+                </div>
+
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и нанесение комплекса фруктовых кислот и
+                    витаминов (1 зона)</p>
+                  <p class="pricelist__list-price">2270 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и проведение процедуры с применением
+                    Маски-гель и неинвазивная карбокситерапия (1 штука)</p>
+                  <p class="pricelist__list-price">1300 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и проведение процедуры Супер лифтинг эффект
+                    "Holy Land"</p>
+                  <p class="pricelist__list-price">1300 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Пилинг "TCA Easy peel (15%) skin Tech"</p>
+                  <p class="pricelist__list-price">14610 ₽</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="pricelist__item"><a href="#" class="pricelist__link" data-name=".for">Прием врача-косметолога и
+              проведение процедуры с применением Маски-гель
+              и неинвазивная карбокситерапия (1 штука)</a>
+            <div class="pricelist__list-items pricelist__list-two for">
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Преимущества фотоомоложения М22: </div>
+                <p class="pricelist__list-word">Безопасная и сертифицированная технология (МИНЗДРАВ РФ, FDA (США), ЕС);
+                </p>
+                <p class="pricelist__list-word">Минимальный риск возникновения постпроцедурной пигментации;</p>
+                <p class="pricelist__list-word">Результат заметен сразу после процедуры фототерапии;</p>
+                <p class="pricelist__list-word">Процедура абсолютно безболезненна, световой луч работает в глубоких
+                  слоях, не затрагивая целостность поверхности кожи.</p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Показания к фототерапии кожи:</div>
+                <p class="pricelist__list-subtitle">Процедура фототерапии проводится на любом участке лица, шеи,
+                  декольте и тела.
+                  Кроме дерматологических показаний, процедура фотоомоложения на М22 прекрасно подходит для подготовки к
+                  важным мероприятиям. </p>
+                <p class="pricelist__list-word"> Признаки фото- и хроностарения; </p>
+                <p class="pricelist__list-word"> Дряблая кожа с пониженной эластичностью; </p>
+                <p class="pricelist__list-word"> Тусклый цвет лица;</p>
+                <p class="pricelist__list-word"> Купероз; </p>
+                <p class="pricelist__list-word"> Розацеа;</p>
+                <p class="pricelist__list-word"> Акне и постакне; </p>
+                <p class="pricelist__list-word">Пигментация; </p>
+                <p class="pricelist__list-word">Телеангиоэктазии; </p>
+                <p class="pricelist__list-word">Расширенные поры; </p>
+                <p class="pricelist__list-word">Мимические морщины. </p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Противопоказания:</div>
+                <p class="pricelist__list-word">Загар (воздержаться от солнечных ванн до и после процедуры);</p>
+                <p class="pricelist__list-word">Болезни, связанные со свертываемостью крови;</p>
+                <p class="pricelist__list-word">Фоточувствительность;</p>
+                <p class="pricelist__list-word">Прием фотосенсибилизаторов;</p>
+                <p class="pricelist__list-word">Склонность к формированию келоидов;</p>
+                <p class="pricelist__list-word">Онкология;</p>
+                <p class="pricelist__list-word">Беременность и период лактации;</p>
+                <p class="pricelist__list-word">Сахарный диабет некомпенсированный;</p>
+                <p class="pricelist__list-word">Наличие кардиостимулятора;</p>
+                <p class="pricelist__list-word">Обострение хронических заболеваний;</p>
+                <p class="pricelist__list-word">Герпес;</p>
+                <p class="pricelist__list-word">Аутоиммунные заболевания;</p>
+                <p class="pricelist__list-word">Эпилепсия.</p>
+              </div>
+
+              <div class="pricelist__list-box2">
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Очищение кожи лица и шеи. Демакияж</p>
+                  <p class="pricelist__list-price">210 ₽</p>
+                </div>
+
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и нанесение комплекса фруктовых кислот и
+                    витаминов (1 зона)</p>
+                  <p class="pricelist__list-price">2270 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и проведение процедуры с применением
+                    Маски-гель и неинвазивная карбокситерапия (1 штука)</p>
+                  <p class="pricelist__list-price">1300 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и проведение процедуры Супер лифтинг эффект
+                    "Holy Land"</p>
+                  <p class="pricelist__list-price">1300 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Пилинг "TCA Easy peel (15%) skin Tech"</p>
+                  <p class="pricelist__list-price">14610 ₽</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="pricelist__item"><a href="#" class="pricelist__link" data-name=".five">Пилинг "TCA Easy peel (15%)
+              skin Tech"</a>
+            <div class="pricelist__list-items pricelist__list-two  five">
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Описание методики:</div>
+                <p class="pricelist__list-subtitle"> Принцип работы аппарата М22 основан на селективном фототермолизе и
+                  связан со способностью некоторых структур организма воспринимать световое излучение и разрушаться под
+                  его
+                  воздействием. </p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Преимущества фотоомоложения М22: </div>
+                <p class="pricelist__list-word">Безопасная и сертифицированная технология (МИНЗДРАВ РФ, FDA (США), ЕС);
+                </p>
+                <p class="pricelist__list-word">Минимальный риск возникновения постпроцедурной пигментации;</p>
+                <p class="pricelist__list-word">Результат заметен сразу после процедуры фототерапии;</p>
+                <p class="pricelist__list-word">Процедура абсолютно безболезненна, световой луч работает в глубоких
+                  слоях, не затрагивая целостность поверхности кожи.</p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Показания к фототерапии кожи:</div>
+                <p class="pricelist__list-subtitle">Процедура фототерапии проводится на любом участке лица, шеи,
+                  декольте и тела.
+                  Кроме дерматологических показаний, процедура фотоомоложения на М22 прекрасно подходит для подготовки к
+                  важным мероприятиям. </p>
+                <p class="pricelist__list-word"> Признаки фото- и хроностарения; </p>
+                <p class="pricelist__list-word"> Дряблая кожа с пониженной эластичностью; </p>
+                <p class="pricelist__list-word"> Тусклый цвет лица;</p>
+                <p class="pricelist__list-word"> Купероз; </p>
+                <p class="pricelist__list-word"> Розацеа;</p>
+                <p class="pricelist__list-word"> Акне и постакне; </p>
+                <p class="pricelist__list-word">Пигментация; </p>
+                <p class="pricelist__list-word">Телеангиоэктазии; </p>
+                <p class="pricelist__list-word">Расширенные поры; </p>
+                <p class="pricelist__list-word">Мимические морщины. </p>
+              </div>
+              <div class="pricelist__list-box">
+                <div class="pricelist__list-title">Противопоказания:</div>
+                <p class="pricelist__list-word">Загар (воздержаться от солнечных ванн до и после процедуры);</p>
+                <p class="pricelist__list-word">Болезни, связанные со свертываемостью крови;</p>
+                <p class="pricelist__list-word">Фоточувствительность;</p>
+                <p class="pricelist__list-word">Прием фотосенсибилизаторов;</p>
+                <p class="pricelist__list-word">Склонность к формированию келоидов;</p>
+                <p class="pricelist__list-word">Онкология;</p>
+                <p class="pricelist__list-word">Беременность и период лактации;</p>
+                <p class="pricelist__list-word">Сахарный диабет некомпенсированный;</p>
+                <p class="pricelist__list-word">Наличие кардиостимулятора;</p>
+                <p class="pricelist__list-word">Обострение хронических заболеваний;</p>
+                <p class="pricelist__list-word">Герпес;</p>
+                <p class="pricelist__list-word">Аутоиммунные заболевания;</p>
+                <p class="pricelist__list-word">Эпилепсия.</p>
+              </div>
+
+              <div class="pricelist__list-box2">
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Очищение кожи лица и шеи. Демакияж</p>
+                  <p class="pricelist__list-price">210 ₽</p>
+                </div>
+
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и нанесение комплекса фруктовых кислот и
+                    витаминов (1 зона)</p>
+                  <p class="pricelist__list-price">2270 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и проведение процедуры с применением
+                    Маски-гель и неинвазивная карбокситерапия (1 штука)</p>
+                  <p class="pricelist__list-price">1300 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Прием врача-косметолога и проведение процедуры Супер лифтинг эффект
+                    "Holy Land"</p>
+                  <p class="pricelist__list-price">1300 ₽</p>
+                </div>
+                <p class="pricelist__list-border"></p>
+                <div class="pricelist__list-price-box">
+                  <p class="pricelist__list-word">Пилинг "TCA Easy peel (15%) skin Tech"</p>
+                  <p class="pricelist__list-price">14610 ₽</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+
+  <section class="page__specialists specialists">
+    <div class="specialists__container container">
+      <h4 class="specialists__title">Наши специалисты</h4>
+      <p class="specialists__text">Управление брендом транслирует из ряда вон выходящий стратегический рыночный план.
+        Конвесия покупателя инновационна. Можно предположить, что ретроконверсия национального наследия оправдывает
+        мониторинг активности.</p>
+      <div class="swiper specialists-swiper">
+
+        <!-- обязательная оболочка -->
+        <div class="swiper-wrapper  specialists__wrapper">
+
+          <!-- слайды -->
+          <div class="swiper-slide  specialists__slide">
+            <img class="specialists__img" src="img/06.jpg" alt="врач">
+            <div class="specialists__name">Иван Капустин</div>
+            <div class="specialists__experience">Стаж: 5 лет</div>
+            <div class="specialists__post">Врач-флеболог</div>
+            <a href="contacts.html" class="specialists__link">Записаться</a>
+          </div>
+          <div class="swiper-slide  specialists__slide">
+            <img class="specialists__img" src="img/07.jpg" alt="врач">
+            <div class="specialists__name">Николай Редискин</div>
+            <div class="specialists__experience">Стаж: 8 лет</div>
+            <div class="specialists__post">Врач-флеболог</div>
+            <a href="contacts.html" class="specialists__link">Записаться</a>
+          </div>
+          <div class="swiper-slide  specialists__slide">
+            <img class="specialists__img" src="img/08.jpg" alt="врач">
+            <div class="specialists__name">Роман Баклажанов</div>
+            <div class="specialists__experience">Стаж: 6 лет</div>
+            <div class="specialists__post">Врач-флеболог</div>
+            <a href="contacts.html" class="specialists__link">Записаться</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="specialists-prev icon icon-left"></div>
+      <div class="specialists-next icon icon-right"></div>
+
+    </div>
+  </section>
+
+
+</main>
+<footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__item">
+      <img src="img/logo-white.png" class="footer__logo">
+      <div class="footer__sochial">
+        <a href="#" class="footer__sochial-item icon-02 icon-sohial-footer"></a>
+        <a href="#" class="footer__sochial-item icon-03 icon-sohial-footer"></a>
+        <a href="#" class="footer__sochial-item icon-04 icon-sohial-footer"></a>
+      </div>
+      <div class="footer__copy">2021 © KLEVER. Все права защищены.</div>
+    </div>
+    <div class="footer__item">
+      <nav class="footer__menu">
+        <ul class="footer__list">
+          <li class="footer__item"><a href="index.html" class="footer__link">Главная</a></li>
+          <li class="footer__item"><a href="services.html" class="footer__link">Услуги</a></li>
+          <li class="footer__item"><a href="specialists.html" class="footer__link">Наши специалисты</a></li>
+          <li class="footer__item"><a href="pricelist.html" class="footer__link">Прайс</a></li>
+          <li class="footer__item"><a href="about.html" class="footer__link">О клинике</a></li>
+          <li class="footer__item"><a href="news.html" class="footer__link">Новости и акции</a></li>
+          <li class="footer__item"><a href="contacts.html" class="footer__link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer__item">
+      <ul class="footer__list">
+        <li class="footer__element footer__element1"><a href="contacts.html" class="footer__link">Записаться на
+            прием</a></li>
+        <li class="footer__element footer__element2"><a href="contacts.html" class="footer__link">Написать главному
+            врачу</a></li>
+        <li class="footer__element footer__element3"><a href="contacts.html" class="footer__link">Политика
+            конфиденциальност</a></li>
+        <li class="footer__element footer__element4"><a href="contacts.html" class="footer__link">Пользовательское
+            соглашение</a> </li>
+      </ul>
+    </div>
+  </div>
+</footer>  </div>
+
+  <script src="js/spoilerprice.js"></script>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+     <script src="js/main.min.js"></script>
+  <script src="js/popup.js"></script>
+</body>
+
+</html>
